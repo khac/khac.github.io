@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b676d06c.css",
+    "main.js": "/static/js/main.9e2ca2ce.js",
+    "static/media/raphael_rooms.jpg": "/static/media/raphael_rooms.2536483b1df76964260b.jpg",
+    "static/media/pov_uncrop.jpg": "/static/media/pov_uncrop.9d40bcfe9caf171bf119.jpg",
+    "static/media/pov_resize.jpg": "/static/media/pov_resize.32299c4920594b2f4240.jpg",
+    "static/media/rocket.png": "/static/media/rocket.466d55f00108e5bcd18f.png",
+    "static/media/colosseum.jpg": "/static/media/colosseum.c474ccca9a2f519c0dd5.jpg",
+    "static/media/growth_presentation.png": "/static/media/growth_presentation.b1f2c619e0d7afac818c.png",
+    "static/media/pov1.jpg": "/static/media/pov1.282cae20032df4108205.jpg",
+    "static/media/pov2.jpg": "/static/media/pov2.09bb489184943078eff1.jpg",
+    "static/media/roman_forums.jpg": "/static/media/roman_forums.985febb41a060db2a58e.jpg",
+    "static/media/adt.jpg": "/static/media/adt.09760be6bffe5835b8a3.jpg",
+    "static/media/roland_garros.jpg": "/static/media/roland_garros.f6f59e2531a01a0beea4.jpg",
+    "static/media/data_storage.jpeg": "/static/media/data_storage.d4388cf22b230b270761.jpeg",
+    "static/media/computer-front.png": "/static/media/computer-front.1d93c23f020bee66ac5e.png",
+    "index.html": "/index.html",
+    "main.b676d06c.css.map": "/static/css/main.b676d06c.css.map",
+    "main.9e2ca2ce.js.map": "/static/js/main.9e2ca2ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b676d06c.css",
+    "static/js/main.9e2ca2ce.js"
+  ]
+}
