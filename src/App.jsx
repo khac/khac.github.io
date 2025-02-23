@@ -136,19 +136,19 @@ function App() {
             </div>
             <div className="WhyMeItem">
               <img src={data_storage_icon} height="100px" />
-              <h2>
+              <h2 >
                 Data
               </h2>
-              <p>
+              <p style={{"marginTop":"60px"}}>
                 Building scalable data platforms and pipelines to process petabyte-scale datasets, enabling real-time analytics and business insights.
               </p>
             </div>
             <div className="WhyMeItem">
-              <img src={growth_icon} height="100px" style={{"marginTop":"10px"}} />
+              <img src={growth_icon} height="100px" />
               <h2>
                 ML & AI Leader
               </h2>
-              <p>
+              <p style={{"paddingTop":"30px"}}>
                 Leading the design and deployment of AI-powered solutions that enhance performance, efficiency, and user engagement.
               </p>
             </div>

@@ -68,3 +68,83 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### deploy
+
+1. Create a React App (If Not Already Created)
+If you don’t have a React app yet, create one using:
+
+sh
+Copy
+Edit
+npx create-react-app my-app
+cd my-app
+2. Install gh-pages Package
+gh-pages helps deploy your app easily. Install it:
+
+sh
+Copy
+Edit
+npm install --save-dev gh-pages
+3. Configure package.json
+Edit package.json:
+
+Add the homepage field:
+
+json
+Copy
+Edit
+"homepage": "https://<your-github-username>.github.io/<repository-name>"
+Add the deploy scripts under "scripts":
+
+json
+Copy
+Edit
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
+4. Initialize Git and Push to GitHub
+If you haven't already set up a GitHub repository:
+
+sh
+Copy
+Edit
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/<your-github-username>/<repository-name>.git
+git push -u origin main
+5. Deploy the App
+Run:
+
+sh
+Copy
+Edit
+npm run deploy
+This will create a gh-pages branch and publish your app.
+
+6. Enable GitHub Pages
+Go to your repository on GitHub.
+
+Navigate to Settings → Pages.
+
+Under Source, select gh-pages branch and click Save.
+
+Wait a few minutes, then visit:
+
+php-template
+Copy
+Edit
+https://<your-github-username>.github.io/<repository-name>/
+7. Updating Your Site
+After making changes, simply run:
+
+sh
+Copy
+Edit
+npm run deploy
+Your updates will be published.
+
+Let me know if you need further clarification! 🚀
