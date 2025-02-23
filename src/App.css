@@ -1,0 +1,101 @@
+.landing_img{
+  width: 100%;
+}
+
+.helloCaptionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 2.5rem;
+  width: 100%;
+  top: 70%;
+  align-items:center;
+  padding-top: 30%;
+}
+
+.helloCaption{
+  @media (min-width: 768px) {
+    header .header-content {
+        position: absolute;
+        top: 70%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        padding: 0 50px;
+        font-family: sans-serif;
+        
+    }
+  }
+  color: gainsboro;
+  background-color: #012b55;
+  /* background-color: #1d4ed8; */
+  border-radius: 5px;
+  border: 1px olive solid;
+  width: 61.8%;
+  max-height: none;
+  text-align: center;
+  
+}
+
+.helloCaptionButton {
+  color: gainsboro;
+  background: linear-gradient(90deg, #00254a 50%, #08262C 100%);
+  /* background: linear-gradient(90deg, #1d4ed8 50%, #08262C 100%); */
+  border-radius: 30px;
+  border: 1px olive solid;
+  margin-top: 3rem;
+  padding: 15px;
+  max-height: 3rem;
+  text-align: center;
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+.helloCaptionButton:hover {
+  color: gainsboro;
+  background: rgb(82, 115, 140);
+  border: 1px olive solid;
+  margin-top: 3rem;
+  padding: 15px;
+  max-height: 3rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.aboutMe {
+  background-color: #012b55;
+  color: gainsboro;
+  padding: 7rem 27.5rem 7rem;
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+.WhyMeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgb(82, 115, 140);
+  padding: 1rem 5rem 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.WhyMeItem {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 26rem;
+  font-size: 24px;
+}
+
+.WhyMeHeading {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 8rem 0 1rem; 
+  font-weight: 700;
+  color: rgb(82, 115, 140);
+}
